@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  max-height: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 0.5px solid #eaebed;
+  box-shadow: 0px 4px 16px 5px #e4ebf3;
+  min-height: 250px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-heading {
+  font-family: 'Roboto';
+  color: #0b69ff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.random-instruction {
+  font-family: 'Roboto';
+  color: #333333;
+  font-weight: 400;
+  width: 90%;
+  text-align: center;
+}
+
+.button {
+  min-height: 30px;
+  min-width: 90px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 5px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #0b69ff;
+}
+
+.random-value {
+  font-family: 'Roboto';
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .card {
+    height: 50%;
+    width: 50%;
+  }
+  .random-heading {
+    font-size: 28px;
+  }
+
+  .random-instruction {
+    font-size: 18px;
+  }
+
+  .button {
+    max-height: 35px;
+    max-width: 100px;
+    font-size: 12px;
+  }
+
+  .random-value {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    height: 60%;
+    width: 60%;
+  }
+  .random-heading {
+    font-size: 45px;
+  }
+
+  .random-instruction {
+    font-size: 20px;
+  }
+
+  .button {
+    max-height: 35px;
+    max-width: 150px;
+    font-size: 15px;
+  }
+
+  .random-value {
+    font-size: 45px;
+  }
+}
